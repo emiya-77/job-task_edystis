@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+@utility side-pd {
+    padding-left: 366px;
+    padding-right: 366px;
+}
