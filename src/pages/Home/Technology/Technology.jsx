@@ -10,7 +10,6 @@ const Technology = () => {
         fetch('./data/technology.json')
         .then(res => res.json())
         .then(data => {
-            console.log(data)
             setSlides(data);
         })
     }, []);
