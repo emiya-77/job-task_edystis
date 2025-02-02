@@ -1,0 +1,65 @@
+.navlinks ul li{
+    padding: 15px 23px;
+}
+
+.sol-sub, .lang-sub{
+    width: 200%;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+    background: white;
+    /* padding: 10px; */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    z-index: 10;
+}
+.lang-menu{
+    border: 1px solid #fff;
+    border-radius: 30px;
+    
+}
+.lang-sub{
+    width: 270% !important;
+}
+.sol-menu:hover .sol-sub, .lang-menu:hover .lang-sub{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(10px);
+}
+
+.angled-section {
+    background: url('./images/home/bg-2.jpg') no-repeat center bottom;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
+    height: 87vh;
+    position: relative;
+}
+  
+.angled-bg-1 {
+    background: linear-gradient(30deg, #a0def6, #1566c4, #024490);
+    background-size: cover;
+    clip-path: polygon(0 0, 77% 0, 35% 100%, 0 100%);
+    width: 100%;
+    height: 87vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.angled-bg-2 {
+    background: linear-gradient(30deg, #1566c4, #024490);
+    background-size: cover;
+    clip-path: polygon(100% 70%, 100% 70%, 100% 100%, 85% 100%);
+    width: 100%;
+    height: 87vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}

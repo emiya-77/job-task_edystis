@@ -1,0 +1,7 @@
+.angled-finance {
+    background: linear-gradient(0deg, #cef2ff, #fff, #fff, #fff, #fff);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+    height: 800px;
+    position: relative;
+}

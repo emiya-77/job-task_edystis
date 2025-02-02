@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
+@theme {
+    --font-montserrat: "Montserrat", "sans-serif"; 
+}
 
-@utility side-pd {
-    padding-left: 366px;
-    padding-right: 366px;
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.side-pd{
+    @apply xl:px-[366px]
+}
+
+.drop-border-btm{
+    @apply border-b-[1px] border-gray-200 py-4 px-4
 }
