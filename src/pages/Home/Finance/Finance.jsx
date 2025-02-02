@@ -3,12 +3,12 @@ import './Finance.css';
 const Finance = () => {
   return (
     <div className="angled-finance side-pd flex items-center">
-        <div className='w-full -mt-44 flex justify-between'>
+        <div className='w-full -mt-44 flex justify-between px-[30px]'>
             <div className='w-1/2'>
                 <h2 className='font-montserrat text-[#1f80f0] font-[700] tracking-[2.56px]'>
                     POWERING THE FUTURE OF FINANCE
                 </h2>
-                <h1 className='mt-6 font-montserrat text-[56px] font-[600] leading-[61.6px]'>
+                <h1 className='mt-6 text-[#0b305b] font-montserrat text-[56px] font-[600] leading-[61.6px]'>
                     Uncovering new <br />ways to delight <br />customers
                 </h1>
                 <p className='mt-6 font-[700] text-[#164377] leading-[25.6px]'>
