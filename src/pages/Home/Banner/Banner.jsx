@@ -19,10 +19,10 @@ const Banner = () => {
   };
   
   return (
-    <div className="angled-section relative w-full h-[1110px] side-pd overflow-hidden"
+    <div className="angled-section relative w-full h-[900px] side-pd overflow-hidden"
     onMouseMove={handleMouseMove}>
         <div className="angled-bg-1"></div>
-        <div className="angled-bg-2"></div>
+        <div className="angled-bg-2 hidden md:flex"></div>
 
         {/* <motion.div className="z-0"
           initial={{ opacity: 0, x: "30%", y: "-30%" }}
@@ -82,7 +82,7 @@ const Banner = () => {
         </motion.div> */}
 
         <Navbar />
-        {/* <Hero /> */}
+        <Hero />
     </div>
   )
 }
