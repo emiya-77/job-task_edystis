@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="px-[30px] py-[17px] md:px-[60px] md:py-[50px] flex justify-between items-center text-white" style={{ position: "relative", zIndex: 10 }}>
+    <div className="px-[30px] py-[17px] md:px-[60px] md:py-[50px] flex justify-between items-center text-white" style={{ position: "relative", zIndex: 20 }}>
         <div>
             <img className='w-[90%]' src="https://cdn.sanity.io/images/6jywt20u/production/ed83f5f1e94efb47572d503f53456dcff902b81c-200x32.svg?w=200&auto=format" alt="logo" />
         </div>
