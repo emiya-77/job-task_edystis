@@ -30,7 +30,7 @@
 }
 
 .angled-section {
-    background: url('public/images/home/bg-2.jpg') no-repeat center bottom;
+    background: url('/images/home/bg-2.jpg') no-repeat center bottom;
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
     position: relative;
