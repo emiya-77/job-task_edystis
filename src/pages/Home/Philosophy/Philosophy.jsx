@@ -1,6 +1,7 @@
 import {useEffect, useState } from 'react'
 import './Philosophy.css'
 import PhilosophyCard from './PhilosophyCard'
+
 const Philosophy = () => {
     const [philosophyData, setPhilosophyData] = useState([])
 

@@ -2,7 +2,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div className="text-white font-[600] h-full flex items-center -mt-28 px-[30px]">
+    <div className="text-white font-[600] h-full flex items-center -mt-28 px-[30px]" style={{ position: "relative", zIndex: 10 }}>
         <div className="">
             <h1 className="font-montserrat text-[80px] leading-[92px]">
                 Embrace the <br />future of finance

@@ -1,0 +1,14 @@
+.angled-legacy {
+    background: linear-gradient(30deg, #1d71d0, #024490);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
+    height: 540px;
+    position: relative;
+}
+
+.parallax-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
