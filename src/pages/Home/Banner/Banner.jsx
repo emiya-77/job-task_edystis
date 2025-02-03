@@ -24,7 +24,7 @@ const Banner = () => {
         <div className="angled-bg-1"></div>
         <div className="angled-bg-2 hidden md:flex"></div>
 
-        {/* <motion.div className="z-0"
+        <motion.div className="z-0"
           initial={{ opacity: 0, x: "30%", y: "-30%" }}
           animate={{ opacity: 1, x: 0, y: 0 }}
           transition={{ duration: 2, ease: "easeInOut" }}
@@ -79,7 +79,7 @@ const Banner = () => {
             }}>
                 
             </motion.div>
-        </motion.div> */}
+        </motion.div>
 
         <Navbar />
         <Hero />
